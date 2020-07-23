@@ -12,6 +12,7 @@ def main(**kwargs):
     print(kwargs)
     repo_name = 'aci-appliance-server'
     repo_owner = 'tigelane'
+    friendly_name = 'ACI Appliance Server'
     now = datetime.now()
     str_now = now.strftime("%Y%m%d-%H%M%S")
 
@@ -48,7 +49,7 @@ def main(**kwargs):
         email=kwargs['github_email_address'],
         repo_name=repo_name,
         repo_owner=repo_owner,
-        friendly_name='ACI Appliance Server'
+        friendly_name=friendly_name
     )
 
     if s.validate_scm_creds():
