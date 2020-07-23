@@ -10,7 +10,7 @@ def pre():
 
 def main(**kwargs):
     print(kwargs)
-    repo_name = 'dc_2020_aci_appliance_server'
+    repo_name = 'aci-appliance-server'
     now = datetime.now()
     str_now = now.strftime("%Y%m%d-%H%M%S")
 
@@ -47,7 +47,7 @@ def main(**kwargs):
         email=kwargs['github_email_address'],
         repo_name=repo_name,
         repo_owner='tigelane',
-        friendly_name='DevNet Connect 2020 ACI Appliance Server'
+        friendly_name='ACI Appliance Server'
     )
 
     if s.validate_scm_creds():
