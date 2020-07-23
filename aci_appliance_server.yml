@@ -1,0 +1,21 @@
+- name : Testing
+  hosts: apic
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: GATHER TENANTS
+      aci_tenant:
+        hostname: "{{ inventory_hostname }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        validate_certs: no
+        state: query
+
+    - name: GATHER EPGs
+      aci_epg:
+        hostname: "{{ inventory_hostname }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        validate_certs: no
+        state: query

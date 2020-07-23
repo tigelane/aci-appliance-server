@@ -1,0 +1,28 @@
+---
+name:
+  - IPAM_01_DC5
+  - JENKINS_01_PROD
+
+description:
+  - IPAM for Corporate
+  - 
+
+leaf_a:
+  - Leaf_101
+  - Leaf_201
+
+interface_a:
+  - 5
+  - 6
+
+leaf_b:
+  - Leaf_201
+  - Leaf_101
+
+interface_a:
+  - 5
+  - 6
+
+attached_epg:
+  - cybercorp_database
+  - Icestone_management
