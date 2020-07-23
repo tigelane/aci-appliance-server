@@ -46,7 +46,7 @@ def main(**kwargs):
         password=kwargs['github_password'],
         email=kwargs['github_email_address'],
         repo_name=repo_name,
-        repo_owner='IGNW',
+        repo_owner='tigelane',
         friendly_name='DevNet Connect 2020 ACI Appliance Server'
     )
 
