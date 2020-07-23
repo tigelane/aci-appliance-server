@@ -11,6 +11,7 @@ def pre():
 def main(**kwargs):
     print(kwargs)
     repo_name = 'aci-appliance-server'
+    repo_owner = 'tigelane'
     now = datetime.now()
     str_now = now.strftime("%Y%m%d-%H%M%S")
 
@@ -46,7 +47,7 @@ def main(**kwargs):
         password=kwargs['github_password'],
         email=kwargs['github_email_address'],
         repo_name=repo_name,
-        repo_owner='tigelane',
+        repo_owner=repo_owner,
         friendly_name='ACI Appliance Server'
     )
 
