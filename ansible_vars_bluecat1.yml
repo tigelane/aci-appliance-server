@@ -1,0 +1,9 @@
+---
+attached_epg: Icestone_management
+description: Our new bluecoat server
+leaf_a: Leaf_101
+leaf_a_interface_a: '9'
+leaf_b: Leaf_101
+leaf_b_interface_a: '9'
+name: bluecat1
+...
