@@ -10,7 +10,7 @@ def pre():
 
 def main(**kwargs):
     print(kwargs)
-    repo_name = 'aci-appliance-server'
+    repo_name = 'aci_appliance_server'
     repo_owner = 'tigelane'
     friendly_name = 'ACI Appliance Server'
     now = datetime.now()
