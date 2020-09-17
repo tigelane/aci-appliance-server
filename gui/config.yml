@@ -1,7 +1,5 @@
 display_name: ACI Appliance Server 
 description: |
-    This is the description for the<br>
-    ACI Appliance Server for the Devnet Demo.<br>
+    Add a new physical Appliance Server to Leafs on the ACI fabric.<br>
+    You will also connect this appliance to an EPG.<br>
     <br>
-    It's multiline and has HTML support<br>
-   
